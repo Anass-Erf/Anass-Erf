@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="200" viewBox="0 0 960 200" role="img" aria-labelledby="title desc">
+  <title id="title">From data to deployment</title>
+  <desc id="desc">A dark AI engineering banner with violet connections between data, model, and application nodes.</desc>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#c4b5fd" stroke-opacity=".06"/>
+    </pattern>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#c4b5fd"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="200" rx="12" fill="#080b12"/>
+  <rect width="960" height="200" rx="12" fill="url(#grid)"/>
+  <path d="M0 199H960" stroke="#a78bfa" stroke-opacity=".4"/>
+  <rect x="36" y="39" width="4" height="122" rx="2" fill="#a78bfa"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="60" y="67" fill="#c4b5fd" font-size="16" letter-spacing="3">AI ENGINEERING</text>
+    <text x="58" y="115" fill="#f3f4f6" font-size="36" font-weight="700">From data to deployment.</text>
+    <text x="60" y="151" fill="#9ca6b7" font-size="18">Models. Systems. Applications.</text>
+  </g>
+  <g fill="none" stroke="url(#line)" stroke-width="2">
+    <path d="M670 55L770 100L670 145M670 100H770L870 55M770 100L870 145M770 100H870"/>
+    <rect x="751" y="81" width="38" height="38" rx="9" fill="#191329"/>
+    <g fill="#0c1019">
+      <circle cx="670" cy="55" r="7"/>
+      <circle cx="670" cy="100" r="7"/>
+      <circle cx="670" cy="145" r="7"/>
+      <circle cx="870" cy="55" r="7"/>
+      <circle cx="870" cy="100" r="7"/>
+      <circle cx="870" cy="145" r="7"/>
+    </g>
+  </g>
+  <circle cx="770" cy="100" r="5" fill="#c4b5fd"/>
+</svg>
